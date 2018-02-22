@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/DaCHRIS/Iceberg-/log"
 )
 
 type NodeData interface {

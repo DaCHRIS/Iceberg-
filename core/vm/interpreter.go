@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/DaCHRIS/Iceberg-/common/math"
+	"github.com/DaCHRIS/Iceberg-/params"
 )
 
 // Config are the configuration options for the Interpreter

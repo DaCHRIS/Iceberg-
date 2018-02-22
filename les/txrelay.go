@@ -19,8 +19,8 @@ package les
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/core/types"
 )
 
 type ltrInfo struct {

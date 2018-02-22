@@ -18,11 +18,11 @@
 package consensus
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/core/state"
+	"github.com/DaCHRIS/Iceberg-/core/types"
+	"github.com/DaCHRIS/Iceberg-/params"
+	"github.com/DaCHRIS/Iceberg-/rpc"
 	"math/big"
 )
 

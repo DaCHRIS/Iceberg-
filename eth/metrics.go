@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/DaCHRIS/Iceberg-/metrics"
+	"github.com/DaCHRIS/Iceberg-/p2p"
 )
 
 var (

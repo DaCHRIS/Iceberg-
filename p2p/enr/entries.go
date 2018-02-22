@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/DaCHRIS/Iceberg-/crypto"
+	"github.com/DaCHRIS/Iceberg-/rlp"
 )
 
 // Entry is implemented by known node record entry types.

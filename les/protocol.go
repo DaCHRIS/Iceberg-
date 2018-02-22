@@ -26,11 +26,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/core"
+	"github.com/DaCHRIS/Iceberg-/crypto"
+	"github.com/DaCHRIS/Iceberg-/crypto/secp256k1"
+	"github.com/DaCHRIS/Iceberg-/rlp"
 )
 
 // Constants to match up protocol versions and messages

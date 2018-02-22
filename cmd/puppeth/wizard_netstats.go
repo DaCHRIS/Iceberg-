@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/DaCHRIS/Iceberg-/core"
+	"github.com/DaCHRIS/Iceberg-/log"
 	"github.com/olekukonko/tablewriter"
 )
 

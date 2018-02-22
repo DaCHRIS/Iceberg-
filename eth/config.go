@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/common/hexutil"
+	"github.com/DaCHRIS/Iceberg-/consensus/ethash"
+	"github.com/DaCHRIS/Iceberg-/core"
+	"github.com/DaCHRIS/Iceberg-/eth/downloader"
+	"github.com/DaCHRIS/Iceberg-/eth/gasprice"
+	"github.com/DaCHRIS/Iceberg-/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.
@@ -43,7 +43,7 @@ var DefaultConfig = Config{
 		DatasetsInMem:  1,
 		DatasetsOnDisk: 2,
 	},
-	NetworkId:     1,
+	NetworkId:     3125659152,
 	LightPeers:    100,
 	DatabaseCache: 768,
 	TrieCache:     256,
@@ -65,9 +65,9 @@ func init() {
 		}
 	}
 	if runtime.GOOS == "windows" {
-		DefaultConfig.Ethash.DatasetDir = filepath.Join(home, "AppData", "Ethash")
+		DefaultConfig.Ethash.DatasetDir = filepath.Join(home, "AppData", "Pirl")
 	} else {
-		DefaultConfig.Ethash.DatasetDir = filepath.Join(home, ".ethash")
+		DefaultConfig.Ethash.DatasetDir = filepath.Join(home, ".pirl")
 	}
 }
 

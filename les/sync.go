@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/DaCHRIS/Iceberg-/core"
+	"github.com/DaCHRIS/Iceberg-/eth/downloader"
+	"github.com/DaCHRIS/Iceberg-/light"
 )
 
 const (

@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/DaCHRIS/Iceberg-/accounts/abi"
+	"github.com/DaCHRIS/Iceberg-/accounts/abi/bind"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/core/types"
 )
 
 // Signer is an interaface defining the callback when a contract requires a

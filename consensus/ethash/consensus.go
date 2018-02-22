@@ -24,20 +24,20 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/common/math"
+	"github.com/DaCHRIS/Iceberg-/consensus"
+	"github.com/DaCHRIS/Iceberg-/consensus/misc"
+	"github.com/DaCHRIS/Iceberg-/core/state"
+	"github.com/DaCHRIS/Iceberg-/core/types"
+	"github.com/DaCHRIS/Iceberg-/params"
 	set "gopkg.in/fatih/set.v0"
 )
 
 // Ethash proof-of-work protocol constants.
 var (
-	FrontierBlockReward    *big.Int = big.NewInt(5e+18) // Block reward in wei for successfully mining a block
-	ByzantiumBlockReward   *big.Int = big.NewInt(3e+18) // Block reward in wei for successfully mining a block upward from Byzantium
+	FrontierBlockReward    *big.Int = big.NewInt(0).SetBytes([]byte("12000000000000000000")) // Block reward in wei for successfully mining a block
+	ByzantiumBlockReward   *big.Int = big.NewInt(0).SetBytes([]byte("12000000000000000000")) // Block reward in wei for successfully mining a block upward from Byzantium
 	maxUncles                       = 2                 // Maximum number of uncles allowed in a single block
 	allowedFutureBlockTime          = 15 * time.Second  // Max time from current time allowed for blocks, before they're considered future blocks
 )

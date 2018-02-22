@@ -26,11 +26,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
-	"github.com/ethereum/go-ethereum/swarm/storage"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/swarm/api"
+	swarm "github.com/DaCHRIS/Iceberg-/swarm/api/client"
+	"github.com/DaCHRIS/Iceberg-/swarm/storage"
+	"github.com/DaCHRIS/Iceberg-/swarm/testutil"
 )
 
 func TestBzzGetPath(t *testing.T) {

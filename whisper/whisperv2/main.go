@@ -27,12 +27,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/whisper"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/crypto"
+	"github.com/DaCHRIS/Iceberg-/logger"
+	"github.com/DaCHRIS/Iceberg-/p2p"
+	"github.com/DaCHRIS/Iceberg-/p2p/nat"
+	"github.com/DaCHRIS/Iceberg-/whisper"
 )
 
 func main() {

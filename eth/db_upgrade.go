@@ -21,11 +21,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/core"
+	"github.com/DaCHRIS/Iceberg-/ethdb"
+	"github.com/DaCHRIS/Iceberg-/log"
+	"github.com/DaCHRIS/Iceberg-/rlp"
 )
 
 var deduplicateData = []byte("dbUpgrade_20170714deduplicateData")

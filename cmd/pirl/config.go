@@ -27,12 +27,12 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/dashboard"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv5"
+	"github.com/DaCHRIS/Iceberg-/cmd/utils"
+	"github.com/DaCHRIS/Iceberg-/dashboard"
+	"github.com/DaCHRIS/Iceberg-/eth"
+	"github.com/DaCHRIS/Iceberg-/node"
+	"github.com/DaCHRIS/Iceberg-/params"
+	whisper "github.com/DaCHRIS/Iceberg-/whisper/whisperv5"
 	"github.com/naoina/toml"
 )
 
@@ -103,7 +103,7 @@ func defaultNodeConfig() node.Config {
 	cfg.Version = params.VersionWithCommit(gitCommit)
 	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "shh")
 	cfg.WSModules = append(cfg.WSModules, "eth", "shh")
-	cfg.IPCPath = "geth.ipc"
+	cfg.IPCPath = "pirl.ipc"
 	return cfg
 }
 

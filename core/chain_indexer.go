@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/core/types"
+	"github.com/DaCHRIS/Iceberg-/ethdb"
+	"github.com/DaCHRIS/Iceberg-/event"
+	"github.com/DaCHRIS/Iceberg-/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

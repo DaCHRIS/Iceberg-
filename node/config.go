@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/DaCHRIS/Iceberg-/accounts"
+	"github.com/DaCHRIS/Iceberg-/accounts/keystore"
+	"github.com/DaCHRIS/Iceberg-/accounts/usbwallet"
+	"github.com/DaCHRIS/Iceberg-/common"
+	"github.com/DaCHRIS/Iceberg-/crypto"
+	"github.com/DaCHRIS/Iceberg-/log"
+	"github.com/DaCHRIS/Iceberg-/p2p"
+	"github.com/DaCHRIS/Iceberg-/p2p/discover"
 )
 
 const (
@@ -228,8 +228,8 @@ func DefaultWSEndpoint() string {
 func (c *Config) NodeName() string {
 	name := c.name()
 	// Backwards compatibility: previous versions used title-cased "Geth", keep that.
-	if name == "geth" || name == "geth-testnet" {
-		name = "Geth"
+	if name == "pirl" || name == "pirl-testnet" {
+		name = "Pirl"
 	}
 	if c.UserIdent != "" {
 		name += "/" + c.UserIdent
